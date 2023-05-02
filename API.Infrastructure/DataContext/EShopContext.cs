@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using API.Data.DbModels;
+﻿using API.Core.DbModels;
 using Microsoft.EntityFrameworkCore;
 
-namespace API.Data.DataContext
+namespace API.Infrastructure.DataContext
 {
     public class EShopContext:DbContext
     {

@@ -20,4 +20,8 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\API.Core\API.Core.csproj" />
+  </ItemGroup>
+
 </Project>
